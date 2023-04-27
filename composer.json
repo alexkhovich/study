@@ -1,0 +1,31 @@
+{
+  "name": "alexkhovich/study",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alex Liakhovich",
+      "email": "alexkhovich@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "2.0.47",
+    "ext-json": "*",
+    "yiisoft/yii2-bootstrap5": "2.0.4"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    },
+    "fxp-asset": {
+      "enabled": false
+    }
+  }
+}
